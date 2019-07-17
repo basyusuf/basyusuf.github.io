@@ -22,7 +22,16 @@ body {
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
-
+.navinstili{
+  background-color: #ff793f14;
+  padding: 10px 10px;
+  border-radius: 10px;
+  transition: 0.1s;
+  &:hover, &:active {
+    background-color: #ff793f8a;
+    transition: 0.1s;
+  }
+}
 .container {
   margin: 0 auto;
   max-width: 740px;
