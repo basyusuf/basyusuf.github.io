@@ -29,7 +29,11 @@ body {
   padding: 0 10px;
   width: 100%;
 }
-
+.blogheader{
+  color:#e74c3c;
+  font-size:36px;
+  border-bottom:1px solid rgba(0,0,0,0.2);
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
@@ -69,11 +73,12 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #2c2c54;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
+  font-weight: 400;
   &:hover, &:active {
-    color: $blue;
+    color: #40407a;
   }
 }
 
@@ -270,10 +275,16 @@ nav {
     border:1px solid rgba(0, 0, 0, 0.2);
     border-radius:10px;
     text-decoration:none;
-    color:#3c40c6;
+    color:#fff;
+    font-weight:600;
     padding:10px 10px;
-	  font-size:15px;
-    background-color:#d2dae2;
+    transition:0.2s;
+	 font-size:15px;
+    background-color:#40407a;
+    &:hover, &:active {
+      background-color: #40407a7c;
+      transition:0.2s;
+    }
   }
 }
 
