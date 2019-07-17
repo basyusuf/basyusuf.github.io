@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 # Yusuf Baş
-1996 Doğumlu yarım yazılım mühendisi.
+Merhabalar, Beykent üniversitesinde yazılım mühendisliği bölümünde 4.sınıf öğrencisiyim :)
 
 ### Benimle iletişime geç
 
