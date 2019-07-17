@@ -267,12 +267,13 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    border: 1px solid black;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #3c40c6;
-    padding: 10px 10px;
-    font-size: 15px;
+    border:1px solid rgba(0, 0, 0, 0.2);
+    border-radius:10px;
+    text-decoration:none;
+    color:#3c40c6;
+    padding:10px 10px;
+	  font-size:15px;
+    background-color:#d2dae2;
   }
 }
 
