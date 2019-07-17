@@ -40,14 +40,14 @@ body {
     border-bottom:1px solid rgba(0,0,0,0.1);
   }
   a{
-    color:#e74c3c;
-    font-size:36px;
-    transition: 0.1s;
-    border-bottom:1px solid rgba(0,0,0,0.2);
+    color:#e74c3c !important;
+    font-size:36px !important;
+    transition: 0.1s !important;
+    border-bottom:1px solid rgba(0,0,0,0.2) !important;
     &:hover, &:active {
-      color: #ff793f;
-      transition: 0.1s;
-      border-bottom:1px solid rgba(0,0,0,0.1);
+      color: #ff793f !important;
+      transition: 0.1s !important;
+      border-bottom:1px solid rgba(0,0,0,0.1) !important;
     }
   }
 }
