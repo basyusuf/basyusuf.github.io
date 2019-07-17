@@ -32,7 +32,13 @@ body {
 .blogheader{
   color:#e74c3c;
   font-size:36px;
+  transition: 0.1s;
   border-bottom:1px solid rgba(0,0,0,0.2);
+  &:hover, &:active {
+    color: #ff793f;
+    transition: 0.1s;
+    border-bottom:1px solid rgba(0,0,0,0.1);
+  }
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
@@ -73,12 +79,12 @@ p {
 }
 
 a {
-  color: #2c2c54;
+  color: #34ace0;
   text-decoration: none;
   cursor: pointer;
   font-weight: 400;
   &:hover, &:active {
-    color: #40407a;
+    color: #ff793f;
   }
 }
 
