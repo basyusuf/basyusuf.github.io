@@ -6,7 +6,7 @@ Yapmamız gereken şey önemli olan cssleri belirlemek.
 * style2.css
 
 Benim amacım style1.css ana divlerimi oluşturan css olduğundan ilk yüklenmesini yapmak istiyorum. Bir değişiklik yapmadan sayfama baktığımda yüklenme şu şekilde olmakta
-[img]('resimgelcek')
+![Normal Html Css Load](https://raw.githubusercontent.com/basyusuf/basyusuf.github.io/master/_posts/NormalhalCropped.png)
 
 Ayar.js Adında bir dosya oluşturuyorum ve içine şu satırları yazıyorum
 ```
@@ -28,3 +28,4 @@ window.onload = function(){
 }
 ```
 Bir fonksiyon oluşturduk bu fonksiyonun içine bir css hrefi yolladık bu hrefte bir css var mı kontrolu yaptıktan sonra eğer yok ise bir Link elementi oluşturduk. Link elementinin href,type ve rel gibi attiribute belirledik. Ve oluşturup attiribute'lerini yazdığımız değişkeni header'a child olarak ekledik. Bu ekleme işlemini sayfa yüklenmesinden sonra istediğimiz için window.onload fonksiyonuna yani pencere yüklendikten sonra css dosyamızı üretip heade eklemiş olduk. Görselde yüklenme işlemi çok daha kolay gözükmekte.
+![Critical Render Path](https://raw.githubusercontent.com/basyusuf/basyusuf.github.io/master/_posts/RenderedCrop.png)
